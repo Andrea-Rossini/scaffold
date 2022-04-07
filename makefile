@@ -12,4 +12,6 @@ test:
 	python -m pytest -vv --cov=dummy --cov=hello test_hello.py
 
 all:
-	install lint test
+	make install
+	make lint
+	make test
